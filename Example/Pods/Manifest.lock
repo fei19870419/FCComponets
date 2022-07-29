@@ -1,0 +1,16 @@
+PODS:
+  - FCComponets (0.1.0)
+
+DEPENDENCIES:
+  - FCComponets (from `../`)
+
+EXTERNAL SOURCES:
+  FCComponets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCComponets: 63ec8d235f2ffbe58775cc012205d11e68e12b26
+
+PODFILE CHECKSUM: df1d7a9a55eadb5c3f31345716c2dd8c2b75583b
+
+COCOAPODS: 1.11.3

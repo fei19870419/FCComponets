@@ -7,6 +7,7 @@
 //
 
 #import "FCViewController.h"
+#import "FCIMComponet.h"
 
 @interface FCViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    FCIMComponet *fc = [FCIMComponet new];
+    
+    [fc printFCIMComponet];
 }
 
 - (void)didReceiveMemoryWarning

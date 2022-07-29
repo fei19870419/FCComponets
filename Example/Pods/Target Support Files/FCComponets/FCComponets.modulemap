@@ -1,0 +1,6 @@
+framework module FCComponets {
+  umbrella header "FCComponets-umbrella.h"
+
+  export *
+  module * { export * }
+}
